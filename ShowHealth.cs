@@ -10,7 +10,7 @@ namespace ShowTargetHealth
 	{
 		private float TextSize = 0.3f;		// Lower value = Smaller text
 		private float TextPosX = 970f;		// Lower value = the more LEFT the text is
-		private float TextPosY = 530f;		// Lower value = the UP the text is
+		private float TextPosY = 530f;		// Lower value = the more UP the text is
 
 		public ShowHealth()
 		{
