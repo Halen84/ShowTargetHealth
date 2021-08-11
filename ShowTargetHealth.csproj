@@ -50,9 +50,6 @@
     <ErrorReport>prompt</ErrorReport>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="ScriptHookRDRNetAPI">
-      <HintPath>D:\Games\Red Dead Redemption 2\ScriptHookRDRNetAPI.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
@@ -69,7 +66,4 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <PropertyGroup>
-    <PostBuildEvent>xcopy /y /d "$(TargetPath)" "D:\Games\Red Dead Redemption 2\scripts"</PostBuildEvent>
-  </PropertyGroup>
 </Project>
