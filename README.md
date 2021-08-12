@@ -3,4 +3,4 @@
 
 # Download & Installation
 - You can download it here or at [nexus](https://www.nexusmods.com/reddeadredemption2/mods/883)
-- Place ShowTargetHealth.dll in your Red Dead Redemption 2/scripts folder
+- Place ShowTargetHealth.dll and ShowTargetHealth.ini in your Red Dead Redemption 2/scripts folder
